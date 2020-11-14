@@ -37,3 +37,6 @@ MERN: Full-stack Chat Application
 
 ![login](https://user-images.githubusercontent.com/57911146/99070417-38652280-25c1-11eb-9698-5999d1f0b814.PNG)
 ![registr](https://user-images.githubusercontent.com/57911146/99070427-3bf8a980-25c1-11eb-8521-927244c8c203.PNG)
+
+
+# Чат в режиме разработки. Будет добавление нового функционала.
