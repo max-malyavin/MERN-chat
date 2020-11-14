@@ -1,0 +1,39 @@
+.dialogs__item {
+  &:hover {
+    background-color: #40a9ff;
+  }
+  display: flex;
+  width: 350px;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  .dialogs__avatar {
+    margin: 0 10px 0 0;
+  }
+  .dialogs__info {
+    width: 270px;
+    &-top {
+      b {
+        font-weight: 700;
+      }
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      .dialogs__date {
+        opacity: 0.5;
+      }
+    }
+    &-bottom {
+      p {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 90%;
+        white-space: nowrap;
+        padding: 0px 0px 3px 0px;
+      }
+    }
+  }
+}
+.dialogs__inner {
+  margin-bottom: 5px;
+}

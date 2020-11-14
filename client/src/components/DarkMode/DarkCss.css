@@ -1,0 +1,11 @@
+#darkMode:hover,
+#darkMode:focus {
+  filter: none;
+  background-color: black;
+  cursor: pointer;
+}
+
+#darkMode.clicked {
+  filter: none !important;
+  background-color: black;
+}

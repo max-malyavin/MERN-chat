@@ -1,0 +1,13 @@
+.dialogs {
+  max-width: 360px;
+  width: 100%;
+  padding: 15px 15px 15px 0;
+  border-right: 1px solid #ccc;
+}
+
+.dialogs__search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}

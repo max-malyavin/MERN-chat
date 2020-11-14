@@ -1,0 +1,32 @@
+.header {
+  border-bottom: 1px solid #ccc;
+  padding: 13px 0px;
+  min-height: 30px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .login__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-profile {
+      position: relative;
+      background: #ccc;
+      font-weight: bold;
+      width: 100px;
+      padding: 5px 5px 5px 8px;
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+      cursor: pointer;
+      margin-right: 25px;
+    }
+    &-avatar {
+      position: absolute;
+      right: -8px;
+      top: -5px;
+      background-color: #87d068;
+    }
+  }
+}

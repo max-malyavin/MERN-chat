@@ -1,0 +1,83 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+
+.main__inner {
+  // border-bottom: 1px solid #ccc;
+  height: 600px;
+  overflow: hidden;
+}
+.main {
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__inner {
+  width: 100%;
+  position: relative;
+  height: calc(100% - 80px);
+  // border-bottom: 2px solid #ccc;
+  // padding-bottom: 10px;
+  .content {
+    width: 100%;
+    height: 100%;
+
+    overflow-y: scroll;
+    &__main {
+      height: 490px;
+      padding: 15px;
+    }
+    &__header {
+      padding: 15px;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: rgb(240, 240, 240);
+      position: sticky;
+      border-bottom: 1px solid #ccc;
+      z-index: 2;
+    }
+  }
+}
+
+.home {
+  height: 100%;
+}
+
+.chat-input {
+  display: flex;
+  position: relative;
+  padding: 20px;
+  align-items: center;
+  svg {
+    font-size: 22px;
+    cursor: pointer;
+    opacity: 0.5;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  &__smile-btn {
+    margin: 10px;
+  }
+  &__actions {
+    width: 80px;
+    justify-content: space-between;
+    margin-left: 15px;
+    display: flex;
+  }
+  input {
+    border-radius: 10px;
+    height: 50px;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+.dialogs__wrapper {
+  // overflow-y: scroll;
+  // height: 80%;
+}
