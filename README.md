@@ -1,7 +1,5 @@
 MERN: Full-stack Chat Application
 
-### `Поюзать можно тут  - mern-chat-app.surge.sh`
-
 
 ## Используемые технологии
 
